@@ -1,0 +1,20 @@
+{
+  "name": "faleopreco_job_email",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node job_email.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "bson": "*",
+    "cookie-parser": "~1.3.5",
+    "express": "~4.13.1",
+    "mongodb": "~2.0.33",
+    "mongoose": "*",
+    "monk": "~1.0.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "nodemailer": "*"
+  }
+}
